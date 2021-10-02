@@ -1,7 +1,7 @@
-hhtml {
+
+html {
     font-size: 62.5%;
 }
-
 *,
 *::after,
 *::before {
@@ -12,4 +12,6 @@ hhtml {
 
 
 @import 'layout';
-@import 'headernavbar'; 
+@import 'headernavbar';  
+@import 'auth/signin';
+@import 'auth/signup'; 

@@ -8,13 +8,10 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
-
 body {
     font-family: "Open Sans";
     color: #808080;
 }
-
-
 @import 'layout';
 @import 'headernavbar';
 @import 'auth/signin';
@@ -22,3 +19,4 @@ body {
 
 @import 'page-title';
 @import 'form-fields';
+@import 'details';

@@ -1,4 +1,3 @@
-
 html {
     font-size: 62.5%;
 }
@@ -9,9 +8,9 @@ html {
     padding: 0;
     box-sizing: inherit;
 }
-
-
 @import 'layout';
-@import 'headernavbar';  
+@import 'headernavbar';
 @import 'auth/signin';
-@import 'auth/signup'; 
+@import 'auth/signup';
+
+@import 'page-title';

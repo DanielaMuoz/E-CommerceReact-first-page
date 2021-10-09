@@ -5,7 +5,7 @@ import Navbar from './headernavbar/navbar';
 
 class Layout extends Component {
   render() {
-    return ( 
+    return (
       <div className='layout'>
         {this.props.children}
         <Header/>
@@ -14,4 +14,5 @@ class Layout extends Component {
     );
   }
 }
+
 export default Layout;
